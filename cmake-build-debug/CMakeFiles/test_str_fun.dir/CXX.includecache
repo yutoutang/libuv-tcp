@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/txy/Desktop/C/uv_tcp/src/http/HttpCommon.h
+vector
+/Users/txy/Desktop/C/uv_tcp/src/http/vector
+string
+/Users/txy/Desktop/C/uv_tcp/src/http/string
+unordered_map
+/Users/txy/Desktop/C/uv_tcp/src/http/unordered_map
+
+/Users/txy/Desktop/C/uv_tcp/test/test_str_fun.cpp
+../src/http/HttpCommon.h
+/Users/txy/Desktop/C/uv_tcp/src/http/HttpCommon.h
+iostream
+/Users/txy/Desktop/C/uv_tcp/test/iostream
+unordered_map
+/Users/txy/Desktop/C/uv_tcp/test/unordered_map
+

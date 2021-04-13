@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="uv_tcp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\examples\;CMake Files\examples\cache\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_radix_tree">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_radix_tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_radix_tree"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_radix_tree/fast">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_radix_tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_radix_tree/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RestfulServer">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/RestfulServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 RestfulServer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RestfulServer/fast">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/RestfulServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 RestfulServer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_ref">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_ref" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_ref"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_ref/fast">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_ref" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_ref/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cross_thread">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/cross_thread" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 cross_thread"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cross_thread/fast">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/cross_thread" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 cross_thread/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_packet">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_packet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_packet"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_packet/fast">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_packet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_packet/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_request">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_request" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_request"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_request/fast">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_request" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_request/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_log">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_log" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_log"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_log/fast">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_log" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_log/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_acceptor">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_acceptor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_acceptor"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_acceptor/fast">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_acceptor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_acceptor/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_str_fun">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_str_fun" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_str_fun"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_str_fun/fast">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_str_fun" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_str_fun/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EchoServer">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/EchoServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 EchoServer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EchoServer/fast">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/EchoServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 EchoServer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_signal">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_signal" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_signal"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_signal/fast">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_signal" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_signal/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EchoClient">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/EchoClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 EchoClient"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EchoClient/fast">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/EchoClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 EchoClient/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_loop">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_loop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_loop"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_loop/fast">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_loop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_loop/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_async">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_async" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_async"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_async/fast">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_async" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_async/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_uv">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_uv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_uv"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_uv/fast">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_uv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_uv/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_idle_handle">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_idle_handle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_idle_handle"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_idle_handle/fast">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_idle_handle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_idle_handle/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_timer">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_timer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_timer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_timer/fast">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/test_timer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_timer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CacheServer">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/examples/cache/CacheServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/examples/cache"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/examples/cache/Makefile&quot;  VERBOSE=1 CacheServer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/examples/cache/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/examples/cache/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/examples/cache/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CacheServer/fast">
+				<Option output="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/examples/cache/CacheServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/examples/cache"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libuv/1.31.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/examples/cache/Makefile&quot;  VERBOSE=1 CacheServer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/examples/cache/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/examples/cache/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/txy/Desktop/C/uv_tcp/cmake-build-debug/examples/cache/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/examples/cache/Buffer.cpp">
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/examples/cache/Buffer.h">
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/examples/cache/CacheItem.cpp">
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/examples/cache/CacheItem.h">
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/examples/cache/CacheSegments.cpp">
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/examples/cache/CacheSegments.h">
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/examples/cache/CacheServer.cpp">
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/examples/cache/CacheServer.h">
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/examples/cache/server.cpp">
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/examples/client_cross/cross_thread.cpp">
+			<Option target="cross_thread"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/examples/echo/EchoClient.cpp">
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/examples/echo/EchoClient.h">
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/examples/echo/EchoServer.cpp">
+			<Option target="EchoServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/examples/echo/EchoServer.h">
+			<Option target="EchoServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/examples/echo/client.cpp">
+			<Option target="EchoClient"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/examples/echo/server.cpp">
+			<Option target="EchoServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/examples/restful/server.cpp">
+			<Option target="RestfulServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/Async.cpp">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/Async.h">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/EventLoop.cpp">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/EventLoop.h">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/InetAddress.cpp">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/InetAddress.h">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/ListBuffer.cpp">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_packet"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/ListBuffer.h">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_packet"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/LogWriter.cpp">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/LogWriter.h">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/Packet.cpp">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_packet"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/Packet.h">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_packet"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/TcpAcceptor.cpp">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/TcpAcceptor.h">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/TcpClient.cpp">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/TcpClient.h">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/TcpConnection.cpp">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/TcpConnection.h">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/TcpServer.cpp">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/TcpServer.h">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/Timer.cpp">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/Timer.h">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/http/HttpCommon.cpp">
+			<Option target="test_radix_tree"/>
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_request"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/http/HttpCommon.h">
+			<Option target="test_radix_tree"/>
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_request"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/http/HttpServer.cpp">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/http/HttpServer.h">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/http/RadixTree.h">
+			<Option target="test_radix_tree"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/http/Request.cpp">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_request"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/http/Request.h">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_request"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/http/Response.cpp">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/src/http/Response.h">
+			<Option target="RestfulServer"/>
+			<Option target="cross_thread"/>
+			<Option target="test_acceptor"/>
+			<Option target="EchoServer"/>
+			<Option target="EchoClient"/>
+			<Option target="test_loop"/>
+			<Option target="test_timer"/>
+			<Option target="CacheServer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/test/test_acceptor.cpp">
+			<Option target="test_acceptor"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/test/test_async.cpp">
+			<Option target="test_async"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/test/test_idle_handle.cpp">
+			<Option target="test_idle_handle"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/test/test_log.cpp">
+			<Option target="test_log"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/test/test_loop.cpp">
+			<Option target="test_loop"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/test/test_packet.cpp">
+			<Option target="test_packet"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/test/test_radix_tree.cpp">
+			<Option target="test_radix_tree"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/test/test_ref.cpp">
+			<Option target="test_ref"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/test/test_request.cpp">
+			<Option target="test_request"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/test/test_signal.cpp">
+			<Option target="test_signal"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/test/test_str_fun.cpp">
+			<Option target="test_str_fun"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/test/test_timer.cpp">
+			<Option target="test_timer"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/test/test_uv.cpp">
+			<Option target="test_uv"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/txy/Desktop/C/uv_tcp/examples/cache/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\cache\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

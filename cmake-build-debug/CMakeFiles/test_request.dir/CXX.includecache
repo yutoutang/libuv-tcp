@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/txy/Desktop/C/uv_tcp/src/http/HttpCommon.h
+vector
+/Users/txy/Desktop/C/uv_tcp/src/http/vector
+string
+/Users/txy/Desktop/C/uv_tcp/src/http/string
+map
+/Users/txy/Desktop/C/uv_tcp/src/http/map
+regex
+/Users/txy/Desktop/C/uv_tcp/src/http/regex
+
+/Users/txy/Desktop/C/uv_tcp/src/http/Request.cpp
+Request.h
+/Users/txy/Desktop/C/uv_tcp/src/http/Request.h
+
+/Users/txy/Desktop/C/uv_tcp/src/http/Request.h
+HttpCommon.h
+/Users/txy/Desktop/C/uv_tcp/src/http/HttpCommon.h
+

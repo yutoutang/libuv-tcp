@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/txy/Desktop/C/uv_tcp/src/ListBuffer.h
+PacketBuffer.h
+/Users/txy/Desktop/C/uv_tcp/src/PacketBuffer.h
+list
+/Users/txy/Desktop/C/uv_tcp/src/list
+
+/Users/txy/Desktop/C/uv_tcp/src/Packet.cpp
+Packet.h
+/Users/txy/Desktop/C/uv_tcp/src/Packet.h
+
+/Users/txy/Desktop/C/uv_tcp/src/Packet.h
+PacketBuffer.h
+/Users/txy/Desktop/C/uv_tcp/src/PacketBuffer.h
+iostream
+/Users/txy/Desktop/C/uv_tcp/src/iostream
+
+/Users/txy/Desktop/C/uv_tcp/src/PacketBuffer.h
+string
+/Users/txy/Desktop/C/uv_tcp/src/string
+functional
+/Users/txy/Desktop/C/uv_tcp/src/functional
+memory
+/Users/txy/Desktop/C/uv_tcp/src/memory
+
+/Users/txy/Desktop/C/uv_tcp/test/test_packet.cpp
+../src/Packet.h
+/Users/txy/Desktop/C/uv_tcp/src/Packet.h
+../src/ListBuffer.h
+/Users/txy/Desktop/C/uv_tcp/src/ListBuffer.h
+iostream
+/Users/txy/Desktop/C/uv_tcp/test/iostream
+

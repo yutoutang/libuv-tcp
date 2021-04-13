@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/txy/Desktop/C/uv_tcp/test/test_ref.cpp
+iostream
+/Users/txy/Desktop/C/uv_tcp/test/iostream
+functional
+/Users/txy/Desktop/C/uv_tcp/test/functional
+
