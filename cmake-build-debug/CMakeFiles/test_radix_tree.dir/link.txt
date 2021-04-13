@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/test_radix_tree.dir/test/test_radix_tree.cpp.o CMakeFiles/test_radix_tree.dir/src/http/HttpCommon.cpp.o  -o test_radix_tree   -L/usr/local/Cellar/libuv/1.31.0/lib 

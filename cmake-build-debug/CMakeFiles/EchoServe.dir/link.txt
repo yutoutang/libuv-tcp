@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/EchoServe.dir/examples/echo/main.cpp.o CMakeFiles/EchoServe.dir/examples/echo/EchoServer.cpp.o  -o EchoServe   -L/usr/local/Cellar/libuv/1.31.0/lib 

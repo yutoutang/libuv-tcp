@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/uv_tcp.dir/main.cpp.o  -o uv_tcp   -L/usr/share/doc/libuv-1.41.0/lib 
