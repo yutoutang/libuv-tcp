@@ -5,11 +5,12 @@
 #include "HttpServer.h"
 
 HttpServer::HttpServer(EventLoop *loop): TcpServer(loop){
+    setNewConnectionCallback(bind(&HttpServer::onNewConnection, this, placeholders::_1));
     setMessageCallback(bind(&HttpServer::onMessage, this, placeholders::_1, placeholders::_2, placeholders::_3));
 }
 
 void HttpServer::Get(const string &path, OnHttpReqCallback callback) {
-    route_[Method::GET].emplace_back(path, callback);
+    route_[Method::GET].set(path, callback);
 }
 
 void HttpServer::onMessage(TcpConnectionPtr conn, const char *buf, ssize_t size) {
@@ -25,11 +26,7 @@ void HttpServer::onMessage(TcpConnectionPtr conn, const char *buf, ssize_t size)
     OnHttpReqCallback callback = nullptr;
     auto rst = req.unpack(out);
     if (rst == ParseResult::Success){
-        for (auto item: route_[Method::GET]){
-//            cout << item.path << " " << req.getPath() << endl;
-            if (item.path == req.getPath())
-                callback = item.callback;
-        }
+        route_[Method::GET].get(req.getPath(), callback);
         if (callback != nullptr){
             Response resp;
             callback(req, &resp);
@@ -39,6 +36,20 @@ void HttpServer::onMessage(TcpConnectionPtr conn, const char *buf, ssize_t size)
             conn->write(respData.c_str(), respData.size(), [this, &name](WriteInfo&){
                 closeConnection(name);
             });
+        } else {
+            LogWriter::Instance()->warn("router error");
         }
+    }
+}
+
+void HttpServer::onNewConnection(weak_ptr<TcpConnection> connection) {
+    if (connection.lock()){
+        count_++;
+    }
+}
+
+void HttpServer::onCloseConnection(weak_ptr<TcpConnection> connection) {
+    if (connection.lock()){
+        count_--;
     }
 }

@@ -24,8 +24,8 @@ int main(){
     EventLoop loop;
     HttpServer server(&loop);
 
-    server.Get("/hello", bind(&func1 ,placeholders::_1, placeholders::_2));
-    server.Get("/test", bind(&func2, placeholders::_1, placeholders::_2));
+    server.Get("/", bind(&func1 ,placeholders::_1, placeholders::_2));
+//    server.Get("/test", bind(&func2, placeholders::_1, placeholders::_2));
 
     InetAddress addr(9000);
     server.bindAndListen(addr);

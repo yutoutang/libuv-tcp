@@ -16,9 +16,7 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/test)
 
 add_subdirectory(${PROJECT_SOURCE_DIR}/examples/cache)
 add_subdirectory(${PROJECT_SOURCE_DIR}/examples/echo)
+add_subdirectory(${PROJECT_SOURCE_DIR}/examples/restful)
 
-
-add_executable(RestfulServer examples/restful/server.cpp ${SRC})
-target_link_libraries(RestfulServer uv)
 
 

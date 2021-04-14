@@ -16,21 +16,17 @@ using namespace std;
 
 typedef function<void(Request&, Response*)> OnHttpReqCallback;
 
-// 比较蠢的方法
-struct RouteInfo{
-    string path;
-    OnHttpReqCallback callback;
-    RouteInfo(string p, OnHttpReqCallback c): path(move(p)), callback(move(c)){};
-};
-
 class HttpServer: public TcpServer {
 public:
     explicit HttpServer(EventLoop* loop);
     void Get(const string& path, OnHttpReqCallback callback);
 private:
     void onMessage(TcpConnectionPtr conn, const char* buf, ssize_t size);
+    void onNewConnection(weak_ptr<TcpConnection> connection);
+    void onCloseConnection(weak_ptr<TcpConnection> connection);
 
-    map<Method, vector<RouteInfo>> route_; // 根据请求 method -> (path, 回调函数)
+    RadixTree<OnHttpReqCallback> route_[Method::Valid]; // 根据请求 method -> (path, 回调函数)
+    int count_;
 };
 
 

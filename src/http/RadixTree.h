@@ -30,19 +30,19 @@ class RadixTree{
 public:
     RadixTree(){};
 
-    void set(string& key, T& value);
+    void set(const string& key, T& value);
     bool get(const string& key, T& value);
 
     static char wildCard; // 通配符
 private:
-    void setNode(RadixTreeNodePtr<T>& node, string& key, T& value);
+    void setNode(RadixTreeNodePtr<T>& node, const string& key, T& value);
     bool getNode(RadixTreeNodePtr<T>& node, const string& key, T& value);
 
     RadixTreeNodePtr<T> root_;
 };
 
 template<typename T>
-void RadixTree<T>::set(string &key, T &value) {
+void RadixTree<T>::set(const string &key, T &value) {
     if (root_ == nullptr){
         root_ = make_shared<RadixTreeNode<T>>(false, key, value, nullptr, nullptr);
     } else {
@@ -59,7 +59,7 @@ template<typename T>
 char RadixTree<T>::wildCard = '*';
 
 template<typename T>
-void RadixTree<T>::setNode(RadixTreeNodePtr<T> &node, string &key, T &value) {
+void RadixTree<T>::setNode(RadixTreeNodePtr<T> &node, const string &key, T &value) {
     if (node == nullptr){
         return;
     }

@@ -6,14 +6,14 @@
 
 using namespace std;
 
-ym::SqlConnPool::SqlConnPool() : freeCount_(0), useCount_(0){}
+SqlConnPool::SqlConnPool() : freeCount_(0), useCount_(0){}
 
-ym::SqlConnPool::~SqlConnPool() {
+SqlConnPool::~SqlConnPool() {
     closeConn();
 }
 
 
-void ym::SqlConnPool::init(const char *host, unsigned int port,
+void SqlConnPool::init(const char *host, unsigned int port,
                            const char *user, const char *pwd, const char *dbName,
                            int connSize = 10) {
     for (int i = 0; i < connSize; ++i) {
@@ -22,23 +22,23 @@ void ym::SqlConnPool::init(const char *host, unsigned int port,
         if (mysql_real_connect(sql, host, user, pwd, dbName, port, nullptr, 0)){
             connQ_.push(sql);
         } else {
-            LOG_ERROR("sql conn error");
+            LogWriter::Instance()->warn("sql conn error");
         }
         freeCount_++;
     }
     maxConnSize_ = connSize;
 }
 
-ym::SqlConnPool *ym::SqlConnPool::instance() {
+SqlConnPool *SqlConnPool::instance() {
     static SqlConnPool sqlConnPool;
     return &sqlConnPool;
 }
 
 // 从连接池中取出
-MYSQL *ym::SqlConnPool::getMysqlConn() {
+MYSQL *SqlConnPool::getMysqlConn() {
     MYSQL *sql = nullptr;
     if (connQ_.empty()){
-        LOG_WARN("sqlConnPoll is empty");
+//        LogWriter::Instance()->warn("sqlConnPoll is empty");
         return nullptr;
     }
     {
@@ -53,13 +53,13 @@ MYSQL *ym::SqlConnPool::getMysqlConn() {
     return sql;
 }
 
-int ym::SqlConnPool::getFreeCount() {
+int SqlConnPool::getFreeCount() {
     // 读
     std::lock_guard<std::mutex> lck(mutex_);
     return freeCount_;
 }
 
-void ym::SqlConnPool::closeConn() {
+void SqlConnPool::closeConn() {
     MYSQL *sql = nullptr; // 写
     std::lock_guard<std::mutex> lck(mutex_);
     while (connQ_.empty()){
@@ -71,7 +71,7 @@ void ym::SqlConnPool::closeConn() {
 }
 
 // sql 空闲了进入连接池中
-void ym::SqlConnPool::freeConn(MYSQL *mysql) {
+void SqlConnPool::freeConn(MYSQL *mysql) {
     assert(mysql); // 写
     std::lock_guard<std::mutex> lck(mutex_);
     connQ_.push(mysql);

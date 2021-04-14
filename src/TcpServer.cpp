@@ -53,8 +53,6 @@ void TcpServer::removeConnection(string &name) {
 
 void TcpServer::closeConnection(string &name) {
     auto conn = getConnection(name);
-    LogWriter::Instance()->info(name + " is closed");
-//    InfoL << name << "is closed";
     if (conn != nullptr){
         conn->close([this](string& name){
             auto conn = getConnection(name);

@@ -11,7 +11,7 @@
 #include "condition_variable"
 
 
-#include "../log/Log.h"
+#include "../../src/LogWriter.h"
 
 
 class SqlConnPool {
